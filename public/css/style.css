@@ -1,0 +1,41 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #333;
+}
+#content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #222;
+    width: 1144px;
+    height: 768px;
+    margin: auto;
+    border: 5px solid #222;
+}
+#paper {
+    background: black;
+    width: 1024px;
+    height: 768px;
+    float: left;
+    left: 0;
+    top: 0;
+}
+#panel {
+    float: left;
+    font: normal 14px sans-serif;
+    color: #CCC;
+    width: 120px;
+}
+#panel h3 {
+    text-align: center;
+}
+#panel #playerList {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
